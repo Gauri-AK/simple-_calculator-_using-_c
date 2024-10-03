@@ -7,3 +7,5 @@ At its core, the basic calculator in C is a console-based application. The user 
 	•	Division (/)
 
 These operations reflect the most commonly used mathematical calculations, making the program practical for everyday use. Upon entering the numbers and the operator, the program computes the result and displays it to the user.
+steps to clone:git clone
+https://github.com/Gauri-AK/simple-_calculator-_using-_c.git
