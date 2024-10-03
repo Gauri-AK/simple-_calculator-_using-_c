@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main() {
+    int a,b;
+    char c;
+    printf("enter value for a and b=");
+    scanf("%d %d",&a,&b);
+    printf("enetr an operator=");
+    scanf(" %c",&c);
+    switch(c)
+    {
+    case '+':
+    printf("%d+%d=%d",a,b,a+b);
+    break;
+    case '-':
+    printf("%d-%d=%d",a,b,a-b);
+    break;
+    case '*':
+    printf("%d*%d=%d",a,b,a*b);
+    break;
+    case '/':
+    printf("%d/%d=%d",a,b,a/b);
+    break;
+    default:
+    printf("error");
+    break;
+}
+      return 0;
+}
